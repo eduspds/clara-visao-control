@@ -1,73 +1,166 @@
-# Welcome to your Lovable project
+# Visão Clara - Central de Controle
 
-## Project info
+Uma central de controle intuitiva e poderosa, projetada especificamente para pequenos empresários que valorizam simplicidade e eficiência.
 
-**URL**: https://lovable.dev/projects/3f0b0a75-65c7-4f1e-af29-155afa6f7743
+## 🎯 Sobre o Projeto
 
-## How can I edit this code?
+O **Visão Clara** é uma solução completa de gestão empresarial que permite a pequenos empresários acompanhar e gerenciar seu negócio de forma simples e visual. Desenvolvido com foco na experiência do usuário, oferece todas as ferramentas essenciais em uma interface limpa e intuitiva.
 
-There are several ways of editing your application.
+### ✨ Principais Funcionalidades
 
-**Use Lovable**
+- **🏠 Dashboard Inteligente**: Visão geral instantânea do seu negócio
+- **📊 Funil de Vendas**: Gestão visual de prospects e oportunidades
+- **📈 Relatórios Claros**: Dados importantes apresentados de forma simples
+- **🤖 Robô de Atendimento**: Automatização inteligente do WhatsApp
+- **👥 Gestão de Equipe**: Controle completo da sua equipe
+- **⚙️ Configurações Flexíveis**: Personalize tudo conforme sua necessidade
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3f0b0a75-65c7-4f1e-af29-155afa6f7743) and start prompting.
+### 🚀 Wizard de Configuração
 
-Changes made via Lovable will be committed automatically to this repo.
+O sistema inicia com um wizard intuitivo de 4 passos que configura:
+1. **Boas-vindas** - Apresentação do sistema
+2. **Conexão WhatsApp** - Integração rápida e segura
+3. **Mensagens Automáticas** - Configuração do robô
+4. **Finalização** - Sistema pronto para uso
 
-**Use your preferred IDE**
+## 🛠 Tecnologias Utilizadas
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend**: React 18 + TypeScript
+- **Estilização**: Tailwind CSS + Shadcn/ui
+- **Roteamento**: React Router DOM
+- **Estado**: React Query (TanStack Query)
+- **Ícones**: Lucide React
+- **Build**: Vite
+- **Notifications**: Sonner
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🎨 Design System
 
-Follow these steps:
+O projeto utiliza um design system robusto com:
+- **Cores semânticas** para consistência visual
+- **Tipografia otimizada** para legibilidade
+- **Componentes reutilizáveis** com variantes
+- **Tema responsivo** que funciona em qualquer dispositivo
+- **Paleta calma** ideal para uso profissional prolongado
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 📱 Funcionalidades Detalhadas
+
+### Dashboard Principal
+- Métricas em tempo real
+- Últimos atendimentos
+- Funil de vendas resumido
+- Ações rápidas
+
+### Funil de Vendas (Kanban)
+- Gestão visual de leads
+- Arrastar e soltar entre etapas
+- Informações detalhadas de cada prospect
+- Métricas de conversão
+
+### Relatórios
+- Gráficos de performance
+- Comparações mensais
+- Taxas de conversão
+- Faturamento detalhado
+
+### Robô de Atendimento
+- Mensagens automáticas configuráveis
+- Respostas baseadas em palavras-chave
+- Controle de horário de funcionamento
+- Estatísticas de performance
+
+### Gestão de Equipe
+- Adicionar/remover membros
+- Controle de permissões
+- Performance individual
+- Status em tempo real
+
+### Configurações
+- Informações da empresa
+- Notificações personalizáveis
+- Horários de funcionamento
+- Backup e restauração
+
+## 🚀 Como Usar
+
+### Desenvolvimento Local
+
+```bash
+# 1. Clone o repositório
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. Navegue até o diretório
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Instale as dependências
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Build para Produção
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+## 🎯 Filosofia de Design
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Princípios Fundamentais
 
-## What technologies are used for this project?
+1. **Clareza Acima de Tudo**: Se precisa de manual, está complexo demais
+2. **Menos é Mais**: Informações essenciais em destaque
+3. **Ações Guiadas**: O sistema orienta o usuário
+4. **Linguagem Humana**: Zero jargão técnico
 
-This project is built with:
+### Persona Principal
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+**Carlos, 52 anos** - Dono de pequena empresa
+- **Conhecimento Técnico**: Baixo
+- **Objetivo**: Ver o que acontece rapidamente
+- **Preferência**: Sistemas simples e diretos
 
-## How can I deploy this project?
+## 📊 Métricas e KPIs
 
-Simply open [Lovable](https://lovable.dev/projects/3f0b0a75-65c7-4f1e-af29-155afa6f7743) and click on Share -> Publish.
+O sistema monitora automaticamente:
+- Atendimentos realizados
+- Taxa de conversão
+- Tempo de resposta
+- Performance da equipe
+- Faturamento mensal
+- Crescimento do negócio
 
-## Can I connect a custom domain to my Lovable project?
+## 🔧 Customização
 
-Yes, you can!
+O sistema é altamente customizável:
+- **Mensagens**: Todas as mensagens automáticas são editáveis
+- **Horários**: Configure seus horários de funcionamento
+- **Equipe**: Adicione quantos membros precisar
+- **Notificações**: Escolha como quer ser notificado
+- **Dados**: Exporte/importe suas configurações
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📈 Próximos Passos
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Integração real com WhatsApp Business API
+- Dashboard de analytics avançado
+- Automações mais complexas
+- Integrações com CRMs populares
+- App mobile nativo
+- Multi-idiomas
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Por favor:
+1. Faça fork do projeto
+2. Crie uma branch para sua feature
+3. Commit suas mudanças
+4. Push para a branch
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+---
+
+**Visão Clara** - Transformando a gestão empresarial em algo simples e eficiente. ✨
